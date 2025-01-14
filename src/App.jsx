@@ -6,9 +6,7 @@ import AddProduto from '../pages/addProduto/addProduto';
 import UpdateProduto from '../pages/update/index';
 import VerProduto from '../pages/visualizarProdutos/index';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 function App() {
   return (
