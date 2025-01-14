@@ -19,6 +19,7 @@ const Cadastro = () => {
       [event.target.name]: [event.target.value],
     }));
   };
+  //Gerencia o envio de Formulário de Cadastro
 
   const handleSubmit = (event) => {
     event.preventDefault();

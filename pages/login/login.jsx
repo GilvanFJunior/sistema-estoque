@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Validation from './LoginValidation';
 import axios from 'axios';
@@ -18,6 +18,7 @@ const Login = () => {
     }));
   };
 
+  //Gerencia o envio de Formulário de login
   const handleSubmit = (event) => {
     event.preventDefault();
     setErrors(Validation(values));
@@ -89,17 +90,3 @@ const Login = () => {
 };
 
 export default Login;
-
-/*
-const handleChange = (event) => {
-  setValues({ ...values, [event.target.name]: [event.target.value] });
-};
-
-const handleSubmit = (event) => {
-  event.preventDefault();
-  axios
-    .post('http://localhost:3000/cadastro', values)
-    .then((res) => console.log('Registrado com sucesso!'))
-    .catch((err) => console.log(err));
-};
-*/
