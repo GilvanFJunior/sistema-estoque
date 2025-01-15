@@ -1,8 +1,37 @@
-# React + Vite
+# Sistema de gerenciamento de estoque de produtos, utilizando ReactJS, ViteJs e Node (Express). </br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<pre><code>Produto:{ 
+            item: descrição do produto, 
+            valor: preço do produto, 
+            quantidade: número de itens no estoque 
+            
+}</pre></code>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pacotes utilizados no frontend:
+<table>
+    <thead>
+        <th> Pacote </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td> axios </td>   <td> ^0.20.0</td> 
+        </tr>
+        <tr>
+            <td> bootstrap</td>  <td> ^4.5.2 </td>
+        </tr>
+        <tr>
+            <td> react</td>  <td> ^18.2.0 </td>
+        </tr>
+        <tr>
+            <td> react-bootstrap</td>  <td> ^2.9.1 </td>
+        </tr>
+        <tr>
+            <td> react-dom</td>  <td>  ^16.13.1 </td>
+        </tr>
+        <tr>
+            <td> react-icons</td>  <td>  ^4.12.0 </td>
+        </tr>
+        <tr>
+        </tr>
+    </tbody>
+</table>
